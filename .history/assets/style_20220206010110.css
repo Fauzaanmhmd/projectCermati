@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.containt {
+    background-image: url("./img/work-desk__dustin-lee.jpg");
+    width: 100%;
+    height: 50vh;
+    background-color: #004a75;
+    background-position: center;
+    background-size: cover;
+}
+
+.containt::after {
+    background-color: #004a75;
+}

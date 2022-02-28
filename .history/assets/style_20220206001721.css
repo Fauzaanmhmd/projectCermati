@@ -1,0 +1,6 @@
+.header {
+    background-image: "./img/work-desk__dustin-lee.jpg";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

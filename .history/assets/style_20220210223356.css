@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.banner {
+    background-image: url("./img/work-desk__dustin-lee.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.content::after {
+    width: 100%;
+    height: 500px;
+    background-color:#004a75;
+    position: absolute;
+}
+
+.name {
+    text-align: center;
+    font-size: 30px;
+}
+
+.skills {
+    text-align: center;
+    font-size: 25px;
+}
+
+.about {
+    text-align: center;
+}
+
+.logo {
+    top: 70px;
+    left: 16px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btnContact {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: .5rem;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btnContact:hover {
+    background: white;
+    color:#007bc1;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    background-color: #e5e5e5;
+    padding-bottom: 2rem;
+}
+
+.help {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.gridItem {
+    border: 1px solid #bbbbbb;
+    padding: 1rem;
+}
+
+.gridHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#050328;
+    padding: 2rem;
+    color:#007bc1;
+}
+
+.penghalang {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modalContent {
+    background-color:#e5e5e5;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.showFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.modalFooter {
+    background-color:#007bc1;
+    width: 50%;
+    height: 150px;
+    padding: 1rem;
+    color: white;
+
+}
+
+.inputText {
+    margin-top: 1rem;
+}
+
+.labelText {
+    margin-top: 1rem;
+}
+
+.modalParagraph {
+    margin-left: 25rem;
+    margin-right: 3rem;
+}
+
+.blueWord {
+    color:#007bc1;
+}
+
+#tutup {
+    background-color:#007bc1;
+    color: white;
+    border: none;
+    padding: 13px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 7rem;
+    margin-right: 25rem;
+}
